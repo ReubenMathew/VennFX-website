@@ -6,8 +6,6 @@
 */
 module.exports = {
   theme: {
-    colors: {
-    },
     extend: {
       colors: {
         white: '#FFF',
@@ -38,7 +36,9 @@ module.exports = {
       },
       padding: {
         '1/3': '0.1rem',
-
+      },
+      fontSize:{
+        '7xl': '5rem',
       }
     },
   },

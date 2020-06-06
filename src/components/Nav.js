@@ -1,5 +1,5 @@
-import Button from './Button'
 
+import Button from './Button'
 function Nav(){
     return (
         <div className="flex flex-row items-center justify-between w-full px-6 py-4 text-left bg-white border-b-2 md:px-32 border-accent2">

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Nav from '../components/Nav'
+import Splash from '../components/Splash'
 
 function Home(){
   
@@ -10,12 +11,15 @@ function Home(){
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         
       </Head>
-      
-      <Nav/>
-      <div className="w-full min-h-screen bg-accent1">
-        
+
+      <div className="z-10 w-full min-h-screen bg-accent1">
+        {/* fixed for sticky nav */}
+        <div className="w-full">
+          <Nav/>
+        </div>
+          <Splash/>
+
       </div>
-      
 
     </div>
   );
