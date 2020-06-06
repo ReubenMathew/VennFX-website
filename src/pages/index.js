@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Splash from '../components/Splash'
+import Markdown from '../components/Markdown'
 
 function Home(){
   
@@ -12,14 +13,13 @@ function Home(){
         
       </Head>
 
-      <div className="z-10 w-full bg-accent1">
+      <div className="w-full" >
         {/* fixed for sticky nav */}
-        <Nav/>
-        
-        <Splash/>
-
-      </div>
-      <div>
+        <div className="bg-accent1">
+          <Nav/>
+          <Splash/>
+        </div>
+        <Markdown/>
       </div>
 
     </div>
