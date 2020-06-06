@@ -4,10 +4,12 @@ function Button(props) {
     const [text, setText] = useState(props.text);
     const [type, setType] = useState(props.type);
     const [shadow, setShadow] = useState(props.shadow);
+    const [px, setPx] = useState(props.px);
+    const [py, setPy] = useState(props.py);
     
     const mappings = {
         'primary': ["black","white","white","black"],
-        'secondary': ["white","accent5","white","black","accent2","black"],
+        'secondary': ["white","accent5","white","accent8","accent2","accent8"],
         'success': ["success","white","white","success","success","success"],
         'error': ["error","white","white","error","error","error"],
         'warning': ["warning","white","white","warning","warning","warning"],
@@ -30,7 +32,7 @@ function Button(props) {
     const mod = 'bg-'+background+' text-'+textColor + ' hover:bg-'+hover_primary+' hover:text-'+hover_secondary +" border-"+border + " hover:border-"+hover_border
     return (
         <div>
-            <button className={`font-medium py-2 px-16 border transition ease-in-out duration-200 rounded ${mod} ${shadowText}`} >
+            <button className={`font-medium px-${px} py-${py} border transition ease-in-out duration-200 rounded ${mod} ${shadowText}`} >
                 {text}
             </button>
         </div>

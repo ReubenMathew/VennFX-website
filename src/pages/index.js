@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Nav from '../components/Nav'
 
 function Home(){
   
@@ -8,9 +8,13 @@ function Home(){
       <Head>
         <title>VennFX</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+        
       </Head>
       
-      <span class="bg-error text-white">VennFX</span>
+      <Nav/>
+      <div className="w-full min-h-screen bg-accent1">
+        
+      </div>
       
 
     </div>
