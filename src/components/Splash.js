@@ -2,7 +2,7 @@ import Button from './Button'
 
 function Splash(){
     return(
-    <div className="flex justify-center min-h-screen mt-12 sm:mt-24">
+    <div className="flex justify-center pb-12 mt-12 sm:pb-24 border-b-1 border-accent2 sm:mt-24">
         <div class="flex flex-wrap flex-col sm:flex-row sm:px-10 ">
           <div className="w-full px-5 sm:px-0 sm:w-7/12">
             <div className="text-4xl font-black text-center sm:text-left md:text-6xl sm:text-5xl">Brainstorm. Organize. Create.</div>
@@ -11,8 +11,12 @@ function Splash(){
             </div>
             <div className="hidden sm:block">
               <div className="flex flex-wrap justify-center space-y-3 text-lg whitespace-no-wrap sm:justify-start sm:space-y-0 ">
-                <div className="sm:pr-4"><Button py="4" px="16" type="success" shadow="true" text="Download"/></div>
-                <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/>
+                <div className="sm:pr-4">
+                    <Button py="4" px="16" type="success" shadow="true" text="Download"/>
+                </div>
+                <div>
+                    <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/>
+                </div>
               </div>
             </div>
             

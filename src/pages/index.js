@@ -12,13 +12,14 @@ function Home(){
         
       </Head>
 
-      <div className="z-10 w-full min-h-screen bg-accent1">
+      <div className="z-10 w-full bg-accent1">
         {/* fixed for sticky nav */}
-        <div className="w-full">
-          <Nav/>
-        </div>
-          <Splash/>
+        <Nav/>
+        
+        <Splash/>
 
+      </div>
+      <div>
       </div>
 
     </div>

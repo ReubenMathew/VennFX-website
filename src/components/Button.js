@@ -9,7 +9,7 @@ function Button(props) {
     
     const mappings = {
         'primary': ["black","white","white","black"],
-        'secondary': ["white","accent5","white","accent8","accent2","accent8"],
+        'secondary': ["white","accent5","white","accent5","accent2","accent5"],
         'success': ["success","white","white","success","success","success"],
         'error': ["error","white","white","error","error","error"],
         'warning': ["warning","white","white","warning","warning","warning"],
