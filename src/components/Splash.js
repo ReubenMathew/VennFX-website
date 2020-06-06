@@ -12,10 +12,12 @@ function Splash(){
             <div className="hidden sm:block">
               <div className="flex flex-wrap justify-center space-y-3 text-lg whitespace-no-wrap sm:justify-start sm:space-y-0 ">
                 <div className="sm:pr-4">
-                    <Button py="4" px="16" type="success" shadow="true" text="Download"/>
+                    <a href="https://github.com/EECS2311-Team8/SoftwareDevelopmentProject/releases/tag/vF">
+                    <Button py="4" px="16" type="success" shadow="true" text="Download"/></a>
                 </div>
                 <div>
-                    <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/>
+                    <a href="https://github.com/ReubenMathew/VennFX">
+                    <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/></a>
                 </div>
               </div>
             </div>
@@ -27,8 +29,10 @@ function Splash(){
               VennFX is a cross-platform Venn Diagram desktop application built for performance and customization.
             </div>
             <div className="flex flex-wrap justify-center space-y-3 text-lg whitespace-no-wrap sm:hidden sm:justify-start sm:space-y-0 sm:space-x-5">
-              <Button py="4" px="16" type="success" shadow="true" text="Download"/>
-              <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/>
+                <a href="https://github.com/EECS2311-Team8/SoftwareDevelopmentProject/releases/tag/vF">
+                    <Button py="4" px="16" type="success" shadow="true" text="Download"/></a>
+                <a href="https://github.com/ReubenMathew/VennFX">
+                    <Button py="4" px="16" type="secondary" shadow="true" text="Source Code"/></a>
             </div>
           </div>
         </div>
