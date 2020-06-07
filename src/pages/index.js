@@ -1,7 +1,6 @@
+import main from '../templates/vercel-theme/VercelTheme'
 import Head from 'next/head'
-import Nav from '../components/Nav'
-import Splash from '../components/Splash'
-import Markdown from '../components/Markdown'
+import VercelTheme from '../templates/vercel-theme/VercelTheme'
 
 function Home(){
   
@@ -10,21 +9,13 @@ function Home(){
       <Head>
         <title>VennFX</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        
       </Head>
-
-      <div className="w-full" >
-        {/* fixed for sticky nav */}
-        <div className="bg-accent1">
-          <Nav/>
-          <Splash/>
-        </div>
-        <Markdown/>
-      </div>
-
+      <VercelTheme/>
     </div>
   );
 
 }
+
+
 
 export default Home;
